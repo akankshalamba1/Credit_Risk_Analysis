@@ -46,4 +46,8 @@ Tools used in the analysis:
 ![eea_classifier](https://user-images.githubusercontent.com/111251560/210569638-7271b397-9a2f-443e-82f0-084f41bed981.png)
 
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary:
+
+All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high. The Ensemble models brought a lot 
+more improvment specially on the sensitivity of the high risk credits. The EasyEnsembleClassifier model shows a recall of 92% so it detects almost all high risk credit. On another hand, with a low precision, a lot of low risk credits are still falsely detected as high risk which would penalize the bank's credit strategy 
+and infer on its revenue by missing those business opportunities. For those reasons I would not recommend the bank to use any of these models to predict credit risk.

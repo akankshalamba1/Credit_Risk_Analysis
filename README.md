@@ -14,6 +14,10 @@ Tools used in the analysis:
 - Combinatorial approach of over- and undersampling using the SMOTEENN algorithm
 - BalancedRandomForestClassifier and EasyEnsembleClassifier to reduce bais
 
+Dataset used for the analysis is as follows:
+
+[Dataset](/Starter_Code/LoanStats_2019Q1.csv)
+
 ## Results: 
 
 ### RandomOverSampler model
